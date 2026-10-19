@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.welcome-section {
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.info-box {
+  background-color: #f9f9f9;
+  border-left: 4px solid #4CAF50;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+.info-box p {
+  color: #333;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.info-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.button-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  display: inline-block;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #007399;
+}
+
+.logout-link {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+}
+
+.logout-btn {
+  background-color: #d32f2f;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.logout-btn:hover {
+  background-color: #b71c1c;
+}
+
+a {
+  text-decoration: none;
+}
